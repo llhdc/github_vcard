@@ -22,8 +22,7 @@ function vCard() {
   let data = JSON.parse(this.responseText);
 
   data.results.forEach(function(profileData) {
-
-    let name = document.createTextNode(data.name)
+    let name = document.createTextNode(profileData.name)
     li.appendChild(name);
     });
 }
