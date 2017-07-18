@@ -8,7 +8,7 @@ function vCard() {
   let mainContent = `
         <main>
         <h1></h1>
-        <div class="bio">
+        <section class="profileData">
         <h2 class="subheader"></h2>
         <ul>
           <li><span id="name">Name: ${data.name}</span></li>
@@ -16,11 +16,12 @@ function vCard() {
           <li><span id="company">${data.company}</span></li>
           <li><span id="website">${data.blog}</span></li>
         </ul>
-        </div>
-        <div>
+        </section>
+        <section class="bio">
           <h2 class="subheader"></h2>
           <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-        </div>
+        </section>
+        <section>
         </main>
       `;
 
