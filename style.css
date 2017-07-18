@@ -62,7 +62,7 @@ ul {
 
 .profileData {
   flex-flow: wrap row;
-  flex-basis: 30%;
+  flex-basis: 35%;
 }
 
 .profileData h1 {
